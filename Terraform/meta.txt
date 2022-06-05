@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: redhatter
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQChAogDD9PzKd1AhiMIoJqzarZQ5EPm07Gaw9j2ddnBblg6CF9Y6BjiJiHRYeysFHhLxT/J7oj5UZ6+g7/5/knmcYRN52nfo94IOvUsgzA4JOV/YBHJDATVLJzk12fV5IPVJqAMVz6i93H/nwM/eNyp41it0y7ISipKwb7kzesIxhS+W/zuxKQx9jCIWrOhRAXcTPqJEPZ5sWgqBgjXRIRCiac2GSuE2fJn0lzANqH4nYlMLRnjrsz4MlgemC7iGqqQK4HVEojN4H4QnOgl6ABtPGWgltZ950NYynM+Pancz/UfPQahHXBCOki42dPot9KwO2MTn2QaNXcd2Ut6tc7Vd1QW3fiSh5KpwvPxI7zICk808CjOtlw/nCOhjAV9HHu36PNyEX4C9brX+auBGBgcPGsXBvORPBCyLUaSjUT9w2ITopHLAya6s4AxTvFIuvIAK7CQ/jYmq753dNGfiw+y9xMFDeyLQtMUJvq8G2Y9Gnakiw8YRYFawROCMgOC4VuA3tQPPy6uIByRCRagqASoOva/duabILz7edYvKe7boowNu+u1GYwMLLYhRo4tWAE6Gv1V1JPCMLeJAY5mlaIB55IDydSvsWZyAIQlTbJV7dj5foipNl5BbQ9g2vRo/PYYzHqq3QffFHrAl3GFsc5jvHsuVyQiQjEE/nu5rLdlkQ== redhatter@example.com

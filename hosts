@@ -1,0 +1,2 @@
+[jenkins-srv]
+terraform1 ansible_host=51.250.95.125 ansible_user=redhatter ansible_ssh_private_key=~/.ssh/id_rsa
